@@ -1,4 +1,4 @@
-ARG postgres_image_version=13
+ARG postgres_image_version=13.1
 ARG postgres_pkg_server_version=13
 ARG rdkit_git_ref=Release_2021_09_4
 ARG rdkit_git_url=https://github.com/rdkit/rdkit.git
