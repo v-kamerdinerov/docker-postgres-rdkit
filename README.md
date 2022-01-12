@@ -57,7 +57,7 @@ A multi-stage docker build is used to produce a lightweight production image wit
 Required postgres versions and RDkit version using ARG.
 - `postgres_image_version`: Version of Docker image
 - `postgres_pkg_server_version`: Version of Postgres-server pkg. Must be Major from docker image version
-- `rdkit_git_ref`: RDKit version
+- `rdkit_git_ref`: RDKit version. Check releases [rdkit](https://github.com/rdkit/rdkit)
 
 To build, run:
 
