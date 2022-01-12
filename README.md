@@ -2,7 +2,7 @@
 
 This is a PostgreSQL Docker image with the RDKit cartridge installed.
 
-Based on [docker-library/postgres](https://github.com/docker-library/postgres) and [mcs07/docker-postgres-rdkit](https://github.com/mcs07/docker-postgres-rdkit)
+Based on [docker-library/postgres](https://github.com/docker-library/postgres) and [mcs07/docker-postgres-rdkit](https://github.com/mcs07/docker-postgres-rdkit), [rdkit](https://github.com/rdkit/rdkit).
 
 
 This image inherits from the [official postgres image](https://hub.docker.com/_/postgres/), and therefore has all the same environment variables for configuration, and can be extended by adding entrypoint scripts to the `/docker-entrypoint-initdb.d` directory to be run on first launch.
